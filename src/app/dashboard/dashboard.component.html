@@ -1,0 +1,90 @@
+<div class="row col-12 pb-5 pt-3 rounded border Larger shadow d-flex justify-content-around" style="background-color: #f5f7fa;">
+    <div class="col-12  justify-content-center row mb-4"><h1 class="text-renter font-weight-bold">කොරෝ​නා තතු
+    </h1></div>
+    
+    <div class="row col-12 d-flex justify-content-around">
+        <div class="col-lg-5 col-md-12 col-sm-12 Larger shadow  pl-2 float-left ">
+            <div class="col-12 row mb-4 mt-3">
+                <h2 class="text-renter font-weight-bold">ශ්‍රී ලංකාව තුළ</h2>
+                
+            </div>
+              <div class="row d-flex justify-content-around">
+                <div class="card text-white bg-primary mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header">තහවුරු කළ කොරෝනා රෝගීන්</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.local_total_cases}}</h1>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-warning mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header">මේ මොහොතේ ප්‍රතිකාර ලබන රෝගීන්</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.local_active_cases}}</h1>
+                    </div>
+                  </div>
+              </div>
+              <div class="row d-flex justify-content-around">
+                <div class="card text-white bg-success mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header ">සුවය ලැබුවන්</h4>
+                    <div class="card-body">
+                      
+                      <h1 class="card-text">{{covidData.local_recovered}}</h1>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-danger mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11">
+                    <h4 class="card-header">මරණ</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.local_deaths}}</h1>
+                    </div>
+                  </div>
+
+              </div>
+              
+        </div>
+
+        <div class="col-lg-5 col-md-12  col-sm-12 Larger shadow pl-2 float-left">
+            <div class="col-12 row mb-4 mt-3">
+                <h2 class="text-renter font-weight-bold">ලොව පුරා</h2>
+                
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="card text-white bg-primary mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header">තහවුරු කළ කොරෝනා රෝගීන්</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.global_total_cases}}</h1>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-warning mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header">අද නව ආසාදිතයන්</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.global_new_cases}}</h1>
+                    </div>
+                  </div>
+              </div>
+              <div class="row d-flex justify-content-around">
+                <div class="card text-white bg-success mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11" >
+                    <h4 class="card-header ">සුවය ලැබුවන්</h4>
+                    <div class="card-body">
+                      
+                      <h1 class="card-text">{{covidData.global_recovered}}</h1>
+                    </div>
+                  </div>
+                  <div class="card text-white bg-danger mb-3 float-left m-2 Larger shadow col-lg-5 col-md-5 col-sm-11">
+                    <h4 class="card-header">මරණ</h4>
+                    <div class="card-body">
+                      <h1 class="card-text">{{covidData.global_deaths}}</h1>
+                    </div>
+                  </div>
+
+              </div>
+        </div>
+
+        
+
+    </div>
+
+    <div class="col-12  justify-content-center row mt-5 pt-5 mb-4"><h6 class="text-renter font-weight-bold"> <a href="https://hpb.health.gov.lk/en/api-documentation">Data Source : Health Promotion Bureau, Sri Lanka</a></h6></div>
+     
+      
+      
+
+</div>
